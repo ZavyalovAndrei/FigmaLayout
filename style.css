@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2")
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2")
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+.page {
+  min-width: 1440px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: rgba(30, 144, 255, 0.5);
+}
+
+.central-container {
+  width: 1196px;
+  margin: auto;
+}
+
+.header-items {
+  margin-top: 41px;
+  width: 100%;
+  height: 83px;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-left: 64px;
+}
+
+.header-nav {
+  box-sizing: border-box;
+  margin-left: 100px;
+  display: flex;
+  gap: 60px;
+}
+
+.header-link:hover {
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 127px;
+  height: 41px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+}
+
+.nav-buttons {
+  margin-right: 48px;
+  display: flex;
+  gap: 28px;
+}
+
+.transporent-button {
+  background-color: transparent;
+  border: 1px solid #7372ff;
+  color: #4443d0;
+}
+
+.colored-button {
+  color: #fff;
+  background-color: #4443d0;
+}
+
+.main-header {
+  margin-top: 279px;
+  width: 621px;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.colored-text {
+  color: #5352ed;
+}
+
+.text-info {
+  width: 565px;
+  margin-top: 17px;
+  font-size: 24px;
+}
+
+.email-field {
+  margin-top: 7px;
+  margin-bottom: 28px;
+  box-sizing: border-box;
+  width: 475px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #2a92f9;
+  background-color: #fff;
+  color: #9f9f9f;
+  padding-left: 22px;
+}
+
+.email-field-header {
+  margin-top: 65px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-image {
+  position: absolute;
+  width: 855px;
+  transform: rotate(-15.51deg);
+  top: 50px;
+  left: 790px;
+}
